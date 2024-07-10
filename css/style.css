@@ -252,3 +252,37 @@ section{
     color: var(--bg-color);
     transform: scale(0.9);
 }
+.newsletter-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    background: var(--text-color);
+    padding: 60px 70px;
+    border-radius: 28px;
+}
+.newsletter-text h2{
+    color: var(--bg-color);
+    font-size: 40px;
+    font-weight: 800;
+}
+.newsletter-content form{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 1rem;
+}
+.newsletter-content form input:first-child{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: var(--bg-color);
+    font-size: var(--p-font);
+    color: var(--text-color);
+    border-radius: 46px;
+}
+.newsletter-content form input:last-child{
+    border-radius: 46px;
+    padding: 15px;
+    font-size: var(--p-font);
+    cursor: pointer;
+}
