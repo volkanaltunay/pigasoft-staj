@@ -130,3 +130,29 @@ section{
     background: transparent;
     color: var(--text-color);
 }
+.brands{
+    padding: 30px 14%;
+    background: var(--text-color);
+}
+.main-brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.brands-a img{
+    width: 100%;
+    height: auto;
+}
+.brands a{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: var(--p-font);
+    color: var(--text-color);
+    transition: all .6s;
+}
+.brands a:hover{
+    transform: translateX(-4px);
+    color: var(--second-color);
+}
