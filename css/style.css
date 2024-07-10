@@ -286,3 +286,8 @@ section{
     font-size: var(--p-font);
     cursor: pointer;
 }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px,auto,));
+    gap: 2rem;
+}
