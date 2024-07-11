@@ -164,6 +164,26 @@ section{
     color: var(--text-color);
     transform: scale(0.9);
 } */
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin: 20px;
+}
+.box{
+    padding: 15px 15px 15px 30px;
+    /* border-right: 4px solid var(--second-color); */
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* transition: all .6s; */
+}
+.f-text p strong{
+    font-size: 40px;
+    color: var(--text-color);
+}
 .brands{
     padding: 30px 14%;
     background: var(--text-color);
@@ -190,6 +210,15 @@ section{
     transform: translateX(-4px);
     color: var(--second-color);
 }
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
 .center-text{
     text-align: center;
 }
@@ -270,7 +299,7 @@ section{
 }
 .btn2:hover{
     background: var(--text-color);
-    border: 1 px solid var(--text-color);
+    /* border: 1 px solid var(--text-color); */
     color: var(--bg-color);
     /* transform: scale(0.9); */
 }
@@ -515,27 +544,6 @@ section{
     .nav-right a{
         margin-right: 7px;
     }
-}
-.feature{
-    padding: 10px 14% 10px;
-}
-.feature-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    align-items: center;
-    gap: 2.5rem;
-}
-.box{
-    padding: 15px 15px 15px 30px;
-    border-right: 4px solid var(--second-color);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    transition: all .6s;
-}
-.f-text{
-    font-size: 20px;
 }
 
 
