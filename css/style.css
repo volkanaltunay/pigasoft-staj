@@ -276,6 +276,44 @@ section{
     color: var(--bg-color);
     transform: scale(0.9);
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 100px;
+}
+/* .card-text h2{
+    font-size: var(--h2-font);
+    font-weight: 700;
+} */
+.card{
+    width: 450px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.06s ease;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-stars a{
+    font-size: 16px;
+    color: var(--other-color);
+    margin-right: 5px;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h4 i{
+    color: rgb(72, 131, 14);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
 .newsletter-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -480,7 +518,7 @@ section{
         margin-right: 7px;
     }
 }
-.customer-text h2{
+/* .customer-text h2{
     font-size: var(--h2-font);
     font-weight: 700;
 }
@@ -522,7 +560,6 @@ section{
     letter-spacing: 0.5px;
 }
 .box-top{
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -558,7 +595,7 @@ section{
     .customer-stars{
         margin-top: 10px;
     }
-}
+} */
 .feature{
     padding: 10px 14% 10px;
 }
@@ -580,70 +617,5 @@ section{
 .f-text{
     font-size: 20px;
 }
-.card-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    margin-top: 100px;
-}
-/* .card-text h2{
-    font-size: var(--h2-font);
-    font-weight: 700;
-} */
-.card{
-    width: 450px;
-    background: var(--bg-color);
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    transition: transform 0.06s ease;
-    padding: 20px;
-    margin: 15px;
-    cursor: pointer;
-}
-.card:hover{
-    transform: translateY(-20px);
-}
-.card-stars a{
-    font-size: 16px;
-    color: var(--other-color);
-    margin-right: 5px;
-}
-.card-content{
-    padding: 20px;
-}
-.card-content h4 i{
-    color: rgb(72, 131, 14);
-    font-size: 1.1rem;
-    letter-spacing: 0.5px;
-}
-.container-gallery{
-    max-width: auto;
-    width: 90%;
-    margin: auto;
-    padding: 40px 0;
-    text-align: center;
-}
-.title h2{
-    font-size: var(--h2-font);
-    margin-bottom: 2rem;
-}
-.photo-gallery{
-    display: flex;
-    gap: 2.5rem;
-}
-.column{
-    /* display: flex; */
-    flex-direction: column;
-    gap: 2.5rem;
-}
-.photo img{
-    /* width: 100%;
-    height: 100%; */
-    border-radius: 20px;
-    object-fit: cover;
-}
-
 
 
