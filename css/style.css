@@ -163,8 +163,8 @@ section{
     background: transparent;
     color: var(--text-color); */
     background: transparent;
-    border: 1 px solid var(--text-color);
-    color: var(--bg-color);
+    border: 1 px solid var(--bg-color);
+    color: var(--text-color);
     transform: scale(0.9);
 }
 .brands{
@@ -617,4 +617,30 @@ section{
     color: rgb(72, 131, 14);
     font-size: 1.1rem;
     letter-spacing: 0.5px;
+}
+.container-gallery{
+    max-width: auto;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.title h2{
+    font-size: var(--h2-font);
+    margin-bottom: 2rem;
+}
+.photo-gallery{
+    display: flex;
+    gap: 2.5rem;
+}
+.column{
+    /* display: flex; */
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.photo img{
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 20px;
+    object-fit: cover;
 }
