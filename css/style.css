@@ -303,6 +303,28 @@ section{
     color: var(--bg-color);
     /* transform: scale(0.9); */
 }
+.newsletter-gallery{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    align-items: center;
+    gap: 2rem;
+    background: var(--footer-color);
+    padding: 60px 70px;
+    border-radius: 28px;
+    height: auto;
+}
+.newsletter-title h2{
+    color: var(--text-color);
+    font-size: var(--h2-font);
+    font-weight: 700;
+    text-align: center;
+}
+.newsletter-gallery .gallery{
+    text-align: center;
+}
+.newsletter-gallery a img{
+    border-radius: 14px;
+}
 .section-header{
     text-align: left;
     margin-bottom: 50px;
