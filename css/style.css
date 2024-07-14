@@ -579,3 +579,65 @@ section{
         margin-right: 7px;
     }
 }
+.sign-up-container{
+    width: 100%;
+    margin-top: 150px;
+}
+.sign-up-row{
+    width: 50%;
+    margin: 50px auto;
+}
+.form-section{
+    width: 80%;
+    margin: auto;
+    min-height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 0px;
+}
+.heading-section{
+    width: 80%;
+    margin: 30px auto;
+}
+.heading-section .h1{
+    color: var(--text-color);
+    font-size: var(--h1-font);
+}
+.form{
+    width: 80%;
+    margin: 10px auto;
+}
+.form input{
+    width: 100%;
+    height: 45px;
+    margin: 8px 0px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid #e3e3e3;
+    outline-color: #37a6e6;
+    border-radius: 5px;
+}
+.form-section .checkbox{
+    width: 80%;
+    margin: 15px auto;
+}
+.form-section .checkbox label{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.form-section .register-button{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #00a400;
+    padding: 10px 0px;
+    text-align: center;
+}
+.form-section .register-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--bg-color);
+}
+.form-section .register-button:hover{
+    background-color: #7bb07b;
+    cursor: pointer;
+    transition: 1s ease;
+}
