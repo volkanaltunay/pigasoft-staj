@@ -341,9 +341,9 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 2rem;
     /* margin-top: 100px; */
-    margin: auto;
+    /* margin: auto; */
 }
 .card{
     width: 450px;
@@ -606,6 +606,10 @@ section{
     width: 80%;
     margin: 10px auto;
 }
+.form label{
+    margin-left: 5px;
+    font-size: 18px;
+}
 .form input{
     width: 100%;
     height: 45px;
@@ -624,7 +628,7 @@ section{
     margin-left: 5px;
     font-size: 14px;
 }
-.form-section .register-button{
+/* .sign-up-container.form-section .register-button{
     width: 80%;
     margin: 50px auto;
     background-color: #00a400;
@@ -635,9 +639,41 @@ section{
     text-decoration: none;
     font-size: 20px;
     color: var(--bg-color);
-}
-.form-section .register-button:hover{
+} */
+/* .sign-up-container.form-section .register-button:hover{
     background-color: #7bb07b;
     cursor: pointer;
     transition: 1s ease;
+} */
+.login-container{
+    width: 100%;
+    margin-top: 150px;
+}
+.login-row{
+    width: 50%;
+    margin: 50px auto;
+}
+.login-button{
+    background-color: #007bff;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.form-section .login-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--bg-color);
+}
+.sign-up-button{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #00a400;
+    padding: 10px 0px;
+    text-align: center;
+}
+.sign-up-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--bg-color);
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   
@@ -39,25 +39,27 @@
         </div>
      </header> 
 
-     <div class="sign-up-container">
-        <div class="sign-up-row">
+     <div class="login-container">
+        <div class="login-row">
             <div class="form-section">
                 <div class="heading-section">
-                    <h1>Sign Up</h1>
+                    <h1>Login Form</h1>
                 </div>
                 <div class="form">
-                    <input type="text" name="firstname" placeholder="First Name"><br>
-                    <input type="text" name="lasttname" placeholder="Last Name"><br>
-                    <input type="text" name="username" placeholder="User Name"><br>
-                    <input type="email" name="email" placeholder="Email"><br>
-                    <input type="password" name="password" placeholder="Password"><br>
-                </div>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" placeholder="Enter your username"><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Enter your password"><br>
+                </div> 
                 <div class="checkbox">
                     <input type="checkbox" name="checkbox">
-                    <label for="termcondition">Accept Terms & Conditions</label>
+                    <label for="termcondition">Remember</label>
+                </div>
+                <div class="login-button">
+                    <a href="index.html" class="register">Login</a>
                 </div>
                 <div class="sign-up-button">
-                    <a href="index.html" class="register">Create New Account</a>
+                    <a href="sign-up.html" class="register">Sign Up</a>
                 </div>
             </div>
         </div>
